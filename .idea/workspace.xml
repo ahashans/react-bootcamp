@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19eaf7d-bde1-40bf-b83b-a9ed5c9c0848" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/slot/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/slot/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slot/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slot" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/slot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TkbBjDZzyv7PoEunwmWUOq8N2h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574006906587</updated>
       <workItem from="1574006909094" duration="646000" />
+      <workItem from="1574142055509" duration="50000" />
     </task>
     <servers />
   </component>
@@ -59,10 +58,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/slot" />
+    </ignored-roots>
   </component>
 </project>
