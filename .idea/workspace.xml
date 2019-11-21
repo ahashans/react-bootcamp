@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19eaf7d-bde1-40bf-b83b-a9ed5c9c0848" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pockedex/src/components/Pokecard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pockedex/src/components/Pokedex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pockedex/src/components/Pokegame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pockedex/src/components/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pockedex/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/pockedex/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pockedex/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pockedex/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pockedex/src/components/Pokecard.js" beforeDir="false" afterPath="$PROJECT_DIR$/pockedex/src/components/Pokecard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pockedex/src/components/Pokedex.js" beforeDir="false" afterPath="$PROJECT_DIR$/pockedex/src/components/Pokedex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pockedex/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pockedex/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,7 +37,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pockedex/src/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574006906587</updated>
       <workItem from="1574006909094" duration="646000" />
-      <workItem from="1574142055509" duration="50000" />
+      <workItem from="1574142055509" duration="14190000" />
+      <workItem from="1574228875811" duration="8311000" />
     </task>
     <servers />
   </component>
