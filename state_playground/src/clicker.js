@@ -18,7 +18,7 @@ class Clicker extends Component {
                 <h1>Number is {this.state.value}</h1>
                 {this.state.value===7
                     ?<h1>YOU WIN!</h1>
-                    : <button onClick={this.handleClick}>Random Number</button>
+                    : <button onClick={this.handleClick} className={"form-control"}>Random Number</button>
                 }
             </div>
         );
