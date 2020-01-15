@@ -22,3 +22,7 @@
     background-color: darkslateblue;
     cursor: pointer;
 }
+.RollDice button:disabled{
+    background-color: black;
+    cursor: default;
+}
