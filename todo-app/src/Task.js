@@ -3,7 +3,7 @@ import "./Task.css";
 class Task extends Component {
     constructor(props) {
         super(props);
-        this.state={task:""};
+        this.state={task:this.props.todo.task};
         this.handleChange=this.handleChange.bind(this);
         this.handleUpdate = this.handleUpdate.bind(this);
     }
@@ -37,8 +37,8 @@ class Task extends Component {
                    className={todo.status === "done" ? "Todo-task completed" : "Todo-task"}
                    style={{textDecoration: todo.status === 'done' ? "line-through" : "none"}}>{todo.task}</li>
                 <div className="Todo-buttons">
-                    <button type="button" value={todo.id} onClick={this.props.editTodo}><i className="fas fa-pen"></i></button>
-                    <button type="button" value={todo.id} onClick={this.props.removeTodo}><i className="fas fa-trash"></i></button>
+                    <button className="fas fa-pen" type="button" value={todo.id} onClick={this.props.editTodo}></button>
+                    <button className="fas fa-trash" type="button" value={todo.id} onClick={this.props.removeTodo}></button>
                 </div>
             </div>;
         }
