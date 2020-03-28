@@ -11,10 +11,11 @@ class TaskList extends Component {
         this.editTask = this.editTask.bind(this);
         this.updateTask = this.updateTask.bind(this);
         this.removeTask = this.removeTask.bind(this);
+        this.toggleCheck = this.toggleCheck.bind(this);
     }
 
     addTask(task) {
-        this.setState({tasks: [...this.state.tasks, task]})
+        this.setState({tasks: [...this.state.tasks, task]});
     }
 
     editTask(e) {
@@ -45,26 +46,24 @@ class TaskList extends Component {
 
     render() {
         let currUpdating = this.state.isUpdating;
-        const todos = this.state.tasks.map((todo) => <li key={todo.id}>
-            {todo.id !== currUpdating
-                ? <Task todo={todo}
-                        toggleCheck={this.toggleCheck}
-                        editTodo={this.editTask}
-                        removeTodo={this.removeTask}/>
-                : <TaskForm todo={todo} updateTodo={this.updateTask}/>
-            }
-        </li>);
+        const todos = this.state.tasks.map((todo) =>
+            <Task todo={todo}
+                  key={todo.id}
+                  toggleCheck={this.toggleCheck}
+                  editTodo={this.editTask}
+                  removeTodo={this.removeTask}
+                  updateTodo={this.updateTask}
+                  isUpdating={todo.id === currUpdating}/>);
         return (
             <div className="TaskList">
                 <h1>Todo App!<span>A simple react todo list App</span></h1>
-                <div className="Form">
-                    {/*<h3>Create New Task</h3>*/}
-                    <TaskForm addTodo={this.addTask}/>
-                </div>
-                <h2>Current Tasks</h2>
                 <ul className="List">
                     {todos}
                 </ul>
+                <div className="Form">
+                    <TaskForm addTodo={this.addTask}/>
+                </div>
+
             </div>
         );
     }

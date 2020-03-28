@@ -1,53 +1,40 @@
 import React, {Component} from 'react';
 import {v4 as uuid} from "uuid";
+import "./TaskForm.css";
 
 class TaskForm extends Component {
-    static defaultProps = {
-        todo:{
-            id:"",
-            task:"",
-            status:"",
-        },
-
-    };
     constructor(props) {
         super(props);
-        this.state = {task:this.props.todo.task};
+        this.state = {task: ""};
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
-    handleChange(e){
+    handleChange(e) {
         this.setState({
-            task:e.target.value
+            task: e.target.value
         })
     };
-    handleSubmit(e){
-      e.preventDefault();
-      if(this.props.todo.id===""){
-          let newTodo = {id:uuid(), task:this.state.task, status:"pending"};
-          this.props.addTodo(newTodo);
-      }
-      else{
-          this.props.todo.task = this.state.task;
-          this.props.updateTodo(this.props.todo);
-      }
-      this.setState({task:""});
+
+    handleSubmit(e) {
+        e.preventDefault();
+        let newTodo = {id: uuid(), task: this.state.task, status: "pending"};
+        this.props.addTodo(newTodo);
+        this.setState({task: ""});
 
     };
+
     render() {
         return (
-            <div>
-                <form onSubmit={(e)=>this.handleSubmit(e)}>
-                    <div>
-                        <label htmlFor="task">New Todo</label>
-                        <input type="text"
-                                id="task"
-                                name="task"
-                                value={this.state.task}
-                                onChange={(e)=>this.handleChange(e)}/>
-                        <button type="submit">{this.props.todo.id===""?"Add":"Update"}</button>
-                    </div>
-                </form>
-            </div>
+            <form onSubmit={this.handleSubmit} className="Todo-form">
+                <label htmlFor="task">New Todo</label>
+                <input type="text"
+                       id="task"
+                       name="task"
+                       value={this.state.task}
+                       onChange={this.handleChange}/>
+                <button type="submit">Add</button>
+            </form>
         );
     }
 }
