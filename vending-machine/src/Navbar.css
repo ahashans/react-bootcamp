@@ -1,0 +1,19 @@
+.Nav{
+    width: 100%;
+    padding: 1.2rem;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #0a3940;
+}
+.Nav a.Nav-item{
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+.Nav a.Nav-item-active{
+    color: rgba(255,255,255,1);
+}
+.Nav a.Nav-item:hover{
+    color: rgba(255,255,255,0.7);
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.Nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0a3940;
+}
+.Nav-header{
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: larger;
+    font-weight: bold;
+    color: #a1a1a1;
+    align-items: center;
+}
+.Nav-item{
+    margin-right: 15px;
+}
+.Nav a{
+    padding: 20px 0;
+    text-decoration: none;
+}
+.Nav-item{
+    color: #a1a1a1;
+}
+.Nav-item:hover{
+    text-decoration: none;
+    color: #e4e4e4;
+}
+.Nav-item-active{
+    text-decoration: none;
+    color: #FFF;
+}

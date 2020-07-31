@@ -1,0 +1,36 @@
+.Dog{
+    padding: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.Dog img{
+    height: 25rem;
+    width: 25rem;
+}
+.Dog-desc{
+    width: 25rem;
+    background: #FFFFFF;
+    text-align: left;
+}
+.Dog-desc-header{
+    padding-left: 1.5rem;
+    font-weight: normal;
+}
+.Dog-desc-header-sub{
+    padding-left: 1.5rem;
+    font-weight: normal;
+}
+.Dog-desc-facts{
+    padding-left: 15px;
+    font-weight: normal;
+}
+.Dog-desc button{
+    border: #146c80;
+    border-radius: 10%;
+    padding: 0.5rem;
+    background: #146c80;
+    color: #FFFFFF;
+    margin: 1rem;
+}
